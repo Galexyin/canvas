@@ -4,10 +4,7 @@ class test{
     public static void main(String[] args) {
         shape s = new shape("rect.shape");
         s.deleteShape();
-        s.addPoint(0, 0);
-        s.addPoint(5, 0);
-        s.addPoint(5, 5);
-        s.addPoint(0, 5);
+        
         s.saveShape();
         shape ss = new shape("circle.shape");
         ss.deleteShape();
