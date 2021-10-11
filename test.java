@@ -18,7 +18,16 @@ class test{
         obj.addCenter(0, 0);
         obj.addShape(ss);
         obj.saveFrame();
+        obj.saveddad();
         obj.saveObject("c.objectX");
+        canvas c = new canvas(100, 30,'x');
+        c.addObject(obj,"hello");
+        for(int i=0;i<10;i++){
+        c.drawObject("hello",1, 5, 5, '*');
+        c.display();
+        c.drawObject("hello",1, 5, 5, '*');
+        c.display();
+            obj.saveObject("c.objectX");
         canvas c = new canvas(100, 30,'x');
         c.addObject(obj,"hello");
         for(int i=0;i<10;i++){
